@@ -1,0 +1,68 @@
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    background: #24303c;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    border: 1px solid #53E053;
+    font-family: 'Open Sans', sans-serif;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select {
+    position: relative;
+    left: 2%;
+    display: flex;
+    width: 90%;
+    height: 5%;
+    line-height: 300%;
+    background: #5c6664;
+    overflow: hidden;
+    border-radius: .25em;
+}
+
+.select2 {
+    position: relative;
+    left: 2%;
+    display: flex;
+    width: 90%;
+    height: 5%;
+    line-height: 300%;
+    overflow: hidden;
+    border-radius: 25%;
+}
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 5%;
+    background: #2b2e2e;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+}
+
+.select:hover::after {
+    color: #53E053;
+}
+
+.select {
+    position: relative;
+    left: 4.5%;
+}
+.selec2-2{
+width: 10%;
+height: 5vh;}

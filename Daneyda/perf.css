@@ -1,0 +1,48 @@
+.titulo{
+    background-color:  #24303C;
+    height: 15vh;
+}
+.letra{
+    color: white;
+}
+.padre{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    margin-top: 7vh;
+    padding: 0%;
+    color: white;
+    background-color: #24303C;
+    height: 45vh;
+    width: 25vh;
+}
+.da{
+    
+    margin-top: 0vh;
+    display: flex;
+    height: 100%;
+    font-size: 10px;
+}
+
+.dane{
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dane section {
+    height: vh;
+    justify-content: center;
+    margin: 5px;
+}
+.final {
+    height: 18vh;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    font-size: 22px;
+    padding: 1%;
+}

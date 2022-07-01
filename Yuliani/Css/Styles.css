@@ -1,0 +1,141 @@
+/* Aquí comienza el HEADER */
+.header{
+    background-color: rgb(3, 114, 12);
+    height: 10vh;
+width: 100%;
+}
+.titulo {
+    width: 20%;
+    height: 100%;
+    font-size: calc(2em + 2.3vw);
+    text-align: center;
+    bottom: 50%;
+}
+
+.letra {
+    color: black;
+    font-size: calc(0.6em + 0.6vw);
+}
+
+
+/* Aqui finaliza el HEADER */
+
+
+/* Aqui comienza el CONTENEDOR */
+h1{
+    font-family: "Playfair Display";
+    color:rgb(250, 245, 245);
+   
+  }
+  h2{
+    font-family: "Playfair Display";
+    color:rgb(17, 17, 17);
+  }
+  nav{
+    font-family: "Playfair Display";
+    color:rgb(250, 245, 245);
+  }
+.navegador {
+    display: flex;
+    height: 100%;
+    width: 12%;
+    flex-direction: column;
+    /* row-gap: 10%; */
+    justify-content: center;
+    align-items: center;
+    row-gap: 5%;
+    background-color: rgb(3, 114, 12);
+}
+
+.med_b {
+    width: 70%;
+    height: 9vh;
+}
+
+
+.letra_nav {
+    color: rgb(0, 0, 0);
+    
+    text-align: center;
+    
+}
+
+.b_nav {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: inset;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-width: 2%;
+    border-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0% 30%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.b_nav:hover {
+    background-color: white;
+    border-width: 3%;
+    border-color: #72cb10;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+    float: left;
+}
+
+.c_datos {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Aqui finaliza el CONTENEDOR */
+
+
+/* Aqui comienza el FOOTER*/
+
+footer {
+    width: 100%;
+    height: 10vh;
+    color: white;
+    background-color: rgb(3, 114, 12);
+    overflow: hidden;
+    display: flex;
+    float: left;
+    flex-direction: row;
+}
+
+.c_creadores {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_contacto {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hola{background-color: rgb(223, 222, 222);
+height: 90vh;
+width: 100%;}
+
